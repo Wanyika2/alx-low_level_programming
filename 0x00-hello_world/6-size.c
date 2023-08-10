@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - A program that prints size of various types on the computer
- * Return: Always 0 (Success);
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
