@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 int main(void)
@@ -13,9 +13,10 @@ int main(void)
 
 	for (p = '0'; p <= 98; p++)
 	{
+
 	for (q = p + 1; q <= 99; q++)
 	{
-	putchar((p / 1) + '0');
+	putchar((p / 10) + '0');
 	putchar((p % 10) + '0');
 	putchar(',');
 	putchar((q / 10) + '0');
