@@ -6,7 +6,7 @@
  * main - Prints the last digit of the number stored in variable n
  * determines whether it is greater than 5 less than 6 or 0
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
