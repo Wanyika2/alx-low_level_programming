@@ -7,7 +7,7 @@
  *
  * @s2: A pointer to the second string to be compared.
  *
- * Return: If str1 < str2, the positive difference of the first unmatched character.
+ * Return: If str1 < str2, positive difference of first unmatched character.
  */
 
 int _strcmp(char *s1, char *s2)
