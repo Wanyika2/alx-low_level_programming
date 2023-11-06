@@ -12,14 +12,17 @@
  * Description: This function creates a new dog structure
  * and returns a pointer to it.
  *
- * It allocates memory for the name and owner strings and makes copies of them.
+ * It allocates memory for the name and owner strings
+ * and makes copies of them.
  *
- * Return: A pointer to the new dog structure, or NULL if memory allocation fails.
+ * Return: A pointer to the new dog structure,
+ * or NULL if memory allocation fails.
+ *
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *new_dog;
-	
+
 	if (name == NULL || owner == NULL)
 		return (NULL);
 
