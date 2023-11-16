@@ -3,6 +3,12 @@
 
 #include <stddef.h>
 
+/**
+ * struct list_s - A structure representing a linked list node.
+ * @str: The string data stored in the node.
+ * @len: The length of the string.
+ * @next: A pointer to the next node in the list.
+ */
 typedef struct list_s
 {
 	char *str;
